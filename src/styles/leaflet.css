@@ -1,0 +1,19 @@
+/* Leaflet CSS voor de kaart */
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom stijlen voor de kaart container */
+.leaflet-container {
+  font-family: inherit;
+  border-radius: 8px;
+}
+
+/* Marker popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+  line-height: 1.5;
+}
