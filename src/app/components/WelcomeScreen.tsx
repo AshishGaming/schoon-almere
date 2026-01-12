@@ -13,7 +13,7 @@ export function WelcomeScreen({ onComplete }: WelcomeScreenProps) {
   const steps = [
     {
       icon: Trash2,
-      title: 'Welkom bij Grofvuil Melden',
+      title: 'Welkom bij Schoon',
       description: 'De eenvoudige manier om grofvuil in jouw buurt te melden',
       color: 'text-green-600',
     },
